@@ -1,0 +1,13 @@
+.header {
+    background-image:url('/Users/aadithyanaidu/Downloads/edu.jpg');
+    background-position: center;
+    background-size: cover;
+    backdrop-fil;
+    color: white;
+}
+.body {
+background-image: url("/Users/aadithyanaidu/Downloads/hack.jpg");
+background-position:center;
+background-size: 50px;
+color:white
+}
