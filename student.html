@@ -5,43 +5,33 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/student.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="js/calendar.js"></script>
-</head>
+  </head>
   <body>
-      <div>
-          <div class="container-fluid">
-            <div class="header row justify-content-center align-items-center vh-100">
-              <div class="col-md-12 text-center">
-                <h1 class="display-4 mb-3">Welcome to StudentBrite</h1>
-                <div class="d-flex justify-content-center mb-3">
-                  <button class="mr-4 btn btn-success">
-                    Student
-                  </button>
-                  <button class="btn btn-primary">
-                    Organiser
-                  </button>
-                </div>
-                <div class="d-flex justify-content-center">
-                  <h3>How do you join us today?</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
+    <ul class="d-flex fixed-top list-unstyled text-white m-3">
+        <a class="text-white" href="/index.html"><li>Home</li></a>
+    </ul>
 
-  <script>
-      $('#navId a').click(e => {
-          e.preventDefault();
-          $(this).tab('show');
-      });
-  </script>  
-  
+    <div class="container-fluid">
+        <div class="header row justify-content-center vh-100 align-items-center">
+            <div class="col-md-12 text-center">
+                <div class="headings mb-4">
+                    <h1 class="display-4">Welcome to the Student's Portal</h1>
+                    <h3>All the Stuff Going On</h3>
+                    <!-- <h4>Curated events in this month!</h4>    -->
+                </div>
+                <a href="#mainbody"><button class="btn btn-primary">View Events</button></a>     
+            </div>
+        </div>
+
+        <div id="mainbody" class="row justify-content-center">
+            Put calendar here, gen using firebase
+        </div>
     
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

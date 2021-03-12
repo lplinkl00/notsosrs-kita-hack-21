@@ -1,0 +1,11 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.header {
+    background-image: url('../img/header-background.jpg');
+    background-position: center;
+    background-size: cover;
+    backdrop-fil;
+    color: white;
+}
